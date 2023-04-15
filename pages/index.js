@@ -16,7 +16,7 @@ export default function Auth() {
     axios.put(
       'https://api.chatengine.io/users/',
       { username, secret },
-      { headers: { "Private-key": "814d5246-2ba6-497e-88cb-54089ac72362" } }
+      { headers: { "Private-key": "407b9b5f-1132-4375-997b-3dbd5fff760e" } }
     )
       .then(r => router.push('/chats'))
   }
